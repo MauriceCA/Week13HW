@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://i.pinimg.com/originals/26/98/1b/26981b8251fcf06abc08c8d5edfe57fe.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: lightseagreen;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.navbar {
+  background-color: darkorange;
+  font-weight: 700;
+}
+
+
+.nav-link:hover {
+  color: darkorange;
+  background-color: black;
 }
